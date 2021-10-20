@@ -1,0 +1,6 @@
+AIRFLOW_HOME=/usr/local/airflow
+AIRFLOW__CORE__LOAD_EXAMPLES=False
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/astro/airflow-venv/bin
+AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@ec2-44-192-41-144.compute-1.amazonaws.com/airflow
+AIRFLOW__WEBSERVER__BASE_URL=http://localhost:8080
+AIRFLOW__CORE__EXECUTOR=LocalExecutor
